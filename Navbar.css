@@ -1,0 +1,57 @@
+/* Navbar Background Color */
+.navbar {
+    /* background-color: #004080; Set background color to #004080 */
+    background-color: #ffffff; 
+}
+
+/* Logo */
+.navbar-brand img {
+    height: 40px;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    color: #ffffff; /* Ensure nav links are white for contrast */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD700; /* Change color to gold on hover for a highlight effect */
+}
+
+/* Navbar Search Bar */
+.form-control {
+    border-color: #004080; /* Match the border color with the navbar background */
+}
+
+.form-control:focus {
+    border-color: #0056b3; /* Slightly lighter blue for focus border */
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 255, 0.2); /* Light blue shadow for focus state */
+}
+
+/* Button Style */
+.btn-outline-light {
+    color: #004080; /* Text color matches navbar background */
+    border-color: #004080; /* Border color matches navbar background */
+}
+
+
+
+.btn-outline-light:hover {
+    background-color: #004080; /* Background color matches navbar background */
+    color: #ffffff; /* Text color white on hover for contrast */
+}
+
+
+/* Adjust spacing between search and navbar items */
+.navbar-collapse {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-collapse .navbar-nav {
+    margin-right: auto; /* Pushes the nav items to the left */
+}
+
+.navbar-collapse .d-flex {
+    margin-left: 20px; /* Add space between search form and nav items */
+}
